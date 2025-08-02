@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding RSVP – Ato & Fredina</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #00703C 60%, #FFDB58 40%), url('https://upload.wikimedia.org/wikipedia/commons/6/63/Kente_cloth_patterns.jpg') no-repeat center center fixed;
+      background-blend-mode: overlay;
+      background-size: cover;
+      color: #fff;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 50px;
+      border: 5px solid #FFDB58;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #fff;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #FFDB58;
+    }
+    p {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #fefefe;
+      color: #222;
+    }
+    button {
+      background-color: #FFDB58;
+      color: black;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    .location, .gift {
+      background: #fff9ec;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      border-left: 5px solid #FFDB58;
+      color: #000;
+    }
+    h3 {
+      color: #FFDB58;
+    }
+    strong {
+      color: #000;
+    }
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      color: #ccc;
+    }
+    a {
+      color: #f9f9f9;
+      text-decoration: underline;
+    }
+    audio {
+      display: block;
+      margin: 30px auto;
+    }
+    .gift-icon {
+      font-size: 56px;
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #FFDB58;
+      animation: pulse 1.5s infinite ease-in-out;
+      filter: drop-shadow(2px 2px 4px #000);
+    }
+    .highlight {
+      background-color: #FFDB58;
+      color: black;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+    .directions-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px auto 0;
+      background-color: #FFDB58;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      width: fit-content;
+      gap: 10px;
+    }
+    .image-banner {
+      width: 100%;
+      border-radius: 20px;
+      margin: 20px 0;
+      object-fit: cover;
+      height: auto;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>You're Invited!</h1>
+    <h2>Ato & Fredina's Wedding</h2>
+
+    <img class="image-banner" src="/mnt/data/IMG_1069.jpeg" alt="Wedding Banner">
+
+    <p>We can’t wait to celebrate with you. Kindly RSVP below.</p>
+
+    <div class="highlight">
+      Wedding Colors: Gold, Emerald Green, and Black
+    </div>
+
+    <audio controls autoplay loop>
+      <source src="https://cdn.pixabay.com/audio/2022/03/09/audio_e140a98b5a.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="location">
+      <h3><i class="fas fa-map-marker-alt"></i> Event Details</h3>
+      <p>Date: Saturday, 16TH AUGUST 2025</p>
+      <p>Time: 1:00 PM</p>
+      <p>Venue: Friendly Gardens, Ofankor, Accra, Ghana</p>
+      <p><a href="https://www.google.com/maps/place/Friendly+gardens/" target="_blank">View Location on Google Maps</a></p>
+      <a class="directions-button" href="https://www.google.com/maps/dir/?api=1&destination=Friendly+gardens+Accra+Ghana" target="_blank">
+        <i class="fas fa-route"></i> Get Directions
+      </a>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.312660720157!2d-0.28667682507819066!3d5.664618694690497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f4c80ca83d9%3A0xaac9236bb43bc395!2sFriendly%20gardens!5e0!3m2!1sen!2sgh!4v1691234567890!5m2!1sen!2sgh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <form action="https://formspree.io/f/mqaldknk" method="POST">
+      <div class="gift">
+        <span class="gift-icon"><i class="fas fa-hand-holding-heart"></i></span>
+        <h3>🎁 Gift Code</h3>
+        <p><strong>Feel like giving?</strong> Kindly use MoMo number <strong>0247219672</strong> with code <strong>THESAMS2025</strong>.</p>
+      </div>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="attendance">Will you be attending?</label>
+      <select id="attendance" name="attendance" required>
+        <option value="">--Select--</option>
+        <option value="Yes">Yes, I’ll be there</option>
+        <option value="No">Sorry, I can't make it</option>
+      </select>
+
+      <label for="notes">Any special notes or dietary requirements?</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button type="submit">Submit RSVP</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Ato & Fredina – All Rights Reserved
+  </footer>
+</body>
+</html>
